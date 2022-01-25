@@ -238,3 +238,42 @@ body {
     transform: translate3d(0,0,0);
   }
 }
+
+.js .js-accordion dd {
+  display: none;
+}
+
+.js-accordion dt::after{
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url('../img/arrow-red.svg') no-repeat center center;
+  margin-left: 10px;
+  transform: rotate(90deg);
+  transition: transform .3s
+}
+
+.js-accordion dt.ativo::after{
+  content: '';
+  transform: rotate(-90deg);
+}
+
+.js-accordion dd.ativo {
+  display: block;
+  animation: slideDown .5s forwards;
+}
+
+@keyframes slideDown {
+  from{
+    opacity: 0;
+    max-height: 0;
+  }
+  to{
+    opacity: 1;
+    max-height: 150px;
+
+  }
+
+}
+
