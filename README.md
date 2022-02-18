@@ -37,5 +37,4 @@ npm run dev
 <br>
 
 ## Deploy do projeto:
-<a href="https://animais-fantasticos-origamid-eight.vercel.app/" target="_blank" rel="noopener noreferrer" title="Animais Fantástico"><img src="https://i.postimg.cc/V6wkvDJJ/apexcharts.png" alt="Imagem do Projeto" width="800" height=""/></a>
-
+<a href="https://animais-fantasticos-origamid-eight.vercel.app/" target="_blank" rel="noopener noreferrer" title="Animais Fantástico"><img src="https://i.postimg.cc/vZwzbv68/animais-fantastico.png" alt="Imagem do Projeto" width="800" height=""/></a>
