@@ -4,7 +4,7 @@
   "description": "![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)\r !['node-version'](https://img.shields.io/badge/node-14.16.0-green)\r <img src=\"https://img.shields.io/badge/RayanneBarrros-Animais Fantástico-blue\"/>\r <br>",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --watch --entry ./js/script.js -o ./"
+    "dev": "webpack --mode development --watch"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/rayanne-barros/animais-fantasticos-Origamid-#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
     "eslint": "^8.9.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4",
