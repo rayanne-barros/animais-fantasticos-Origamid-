@@ -3,9 +3,9 @@ import Accordion from './modules/accordion.js';
 import TabNav from './modules/tabnav.js';
 import Modal from './modules/modal.js';
 import Tooltip from './modules/tooltip.js';
+import AnimaNumeros from './modules/anima-numeros.js';
 import initDropdownMenu from './modules/dropdown-menu.js';
 import initMenuMobile from './modules/menu-mobile.js';
-import initAnimaNumeros from './modules/anima-numeros.js';
 import initFuncionamento from './modules/funcionamento.js';
 import initAnimacaoScroll from './modules/scroll-animacao.js';
 
@@ -24,8 +24,11 @@ modal.init();
 const tooltip = new Tooltip('[data-tooltip]');
 tooltip.init();
 
+const animaNumeros = new AnimaNumeros('[data-numero]', '.numeros', 'ativo');
+animaNumeros.init();
+
 initDropdownMenu();
 initMenuMobile();
-initAnimaNumeros();
+
 initFuncionamento();
 initAnimacaoScroll();
