@@ -6,7 +6,7 @@
 
 # Animais Fantástico (Origamid)
 
-O projeto está sendo desenvolvido durante o curso de javascript da Origamid.
+O projeto desenvolvido durante o curso de javascript da Origamid.
 
 ## 📍 Como rodar o projeto
 
